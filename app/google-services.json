@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295453379304",
+    "project_id": "dress-app-37f7a",
+    "storage_bucket": "dress-app-37f7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295453379304:android:44b0c4bdf725f85a02175d",
+        "android_client_info": {
+          "package_name": "com.example.dressapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295453379304-j18d91gflg1n3a77t87om7o5rk5mm33b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR5H-5YBHE9iAAsAP8ABiDuZRcDLj_nzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295453379304-j18d91gflg1n3a77t87om7o5rk5mm33b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

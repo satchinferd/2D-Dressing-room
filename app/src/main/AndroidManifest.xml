@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dressapp">
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DressApp">
+
+
+        <activity
+            android:name=".App.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.Design.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CutOutActivity" android:theme="@style/Theme.DressApp.NoActionBar"></activity>
+        <activity android:name=".App.ChooseImageAct" android:theme="@style/AppTheme.AppBarOverlay"></activity>
+        <activity android:name=".App.OptionsActivity" />
+        <activity android:name=".App.FollowersActivity" />
+        <activity android:name=".App.EditProfileActivity" />
+        <activity android:name=".App.CommentsActivity" />
+        <activity android:name=".App.PostActivity" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".App.RagisterActivity" />
+        <activity android:name=".App.LoginActivity" />
+        <activity android:name=".App.StartActivity"/>
+        <activity android:name=".App.FirstActivity"/>
+
+    </application>
+
+</manifest>
